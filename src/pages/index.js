@@ -7,7 +7,7 @@ import Sidebar from '../components/Sidebar';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
 import Experience from '../components/Experience';
-import Skills from '../components/Skills';
+import Skills from '../components/SkillsCarousel';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
