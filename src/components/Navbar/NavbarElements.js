@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
@@ -93,15 +92,5 @@ export const SocialsLink = styled.a`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  font-weight: bold;
-`;
-
-export const DividerWrapper = styled.p`
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0 1rem;
-  height: 100%;
   font-weight: bold;
 `;

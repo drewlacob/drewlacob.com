@@ -11,10 +11,6 @@ export const ProjectsContainer = styled.div`
   @media screen and (max-width: 768px) {
     height: 1000px;
   }
-
-  //   @media screen and (max-width: 480px) {
-  //     height: 1300px;
-  //   }
 `;
 
 export const ProjectsWrapper = styled.div`
@@ -86,11 +82,4 @@ export const ProjectsP = styled.p`
 export const ProjectLink = styled.a`
   text-decoration: none;
   color: #000;
-`;
-
-export const ProjectsIconWrapper = styled.div`
-  height: 160px;
-  width: 160px;
-  margin-bottom: 50px;
-  margin-top: 0px;
 `;

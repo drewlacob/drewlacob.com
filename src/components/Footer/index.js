@@ -13,6 +13,7 @@ import {
   SocialMediaWrap,
   SocialLink,
 } from './FooterElements';
+
 const Footer = () => {
   return (
     <FooterContainer>

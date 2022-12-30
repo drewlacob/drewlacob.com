@@ -8,11 +8,11 @@ import {
   ProjectsH2,
   ProjectsP,
   ProjectLink,
-  ProjectsIconWrapper,
 } from './ProjectsElements';
 import KeschetIcon from '../../images/keschet.png';
 import ClimBlogLogo from '../../images/cbLogo.png';
 import GhostRacerPhoto from '../../images/grPhoto.png';
+
 const Projects = () => {
   return (
     <ProjectsContainer id="projects">
