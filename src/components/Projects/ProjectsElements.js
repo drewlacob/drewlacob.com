@@ -9,7 +9,7 @@ export const ProjectsContainer = styled.div`
   background: #010606;
 
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 1000px;
   }
 
   //   @media screen and (max-width: 480px) {

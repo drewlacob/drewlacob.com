@@ -10,7 +10,11 @@ export const SkillsContainer = styled.div`
   background: #010606;
 
   @media screen and (max-width: 768px) {
-    height: 900px;
+    height: 600px;
+  }
+
+  @media screen and (max-width: 480px) {
+    height: 400px;
   }
 `;
 
@@ -18,7 +22,7 @@ export const SkillsWrapper = styled.div`
   max-width: 1000px;
   align-items: center;
   color: #fff;
-  height: 400px;
+  height: 300px;
   background: #282c34;
   width: 70vw;
   border-radius: 64px;
@@ -53,23 +57,23 @@ export const SkillsCard = styled.div`
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
+  transform: scale(0.8);
 
   &:hover {
-    transform: scale(1.02);
+    transform: scale(0.96);
     transition: all 0.2s ease-in-out;
-    cursor: pointer;
   }
 `;
 
 export const SkillsIcon = styled.img`
-  height: 50px;
-  width: 50px;
+  height: 140px;
+  width: 140px;
   margin-bottom: 10px;
 `;
 
 export const SkillsH2 = styled.h2`
   font-size: 1rem;
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
   color: #000;
 `;
 

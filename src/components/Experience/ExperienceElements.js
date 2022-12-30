@@ -9,6 +9,10 @@ export const ExperienceContainer = styled.div`
   background: #010606;
 
   @media screen and (max-width: 768px) {
+    height: 800px;
+  }
+
+  @media screen and (max-width: 600px) {
     height: 900px;
   }
 `;
