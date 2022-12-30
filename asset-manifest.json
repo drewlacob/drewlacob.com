@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/drewlacob.com/static/css/main.53502619.css",
+    "main.js": "/drewlacob.com/static/js/main.1ba6cc67.js",
+    "static/media/video.mp4": "/drewlacob.com/static/media/video.cdae1e2dccdc1e672ede.mp4",
+    "static/media/avatarPhoto.jpg": "/drewlacob.com/static/media/avatarPhoto.91ffa332ed2270a67fd7.jpg",
+    "static/media/keschet.png": "/drewlacob.com/static/media/keschet.be2d15120821f95b5958.png",
+    "static/media/clogo.png": "/drewlacob.com/static/media/clogo.360b721dbb3dc88e909a.png",
+    "static/media/resume.pdf": "/drewlacob.com/static/media/resume.039675ee419e629b193c.pdf",
+    "static/media/cpplogo.png": "/drewlacob.com/static/media/cpplogo.053a898d752aef72651e.png",
+    "static/media/grPhoto.png": "/drewlacob.com/static/media/grPhoto.ddaefe00632859a385f4.png",
+    "static/media/postgresqllogo.png": "/drewlacob.com/static/media/postgresqllogo.840c01a46a2fb69f5454.png",
+    "static/media/cbLogo.png": "/drewlacob.com/static/media/cbLogo.39cf4b544ac5e7ff5d1b.png",
+    "static/media/revicons.eot": "/drewlacob.com/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/drewlacob.com/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/awslogo.png": "/drewlacob.com/static/media/awslogo.6cb0036db459afd4c454.png",
+    "static/media/jslogo.png": "/drewlacob.com/static/media/jslogo.266bd9fb2663dcc057b4.png",
+    "static/media/revicons.woff": "/drewlacob.com/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/javalogo.svg": "/drewlacob.com/static/media/javalogo.cd9a7278a1882b41342137af0da0491d.svg",
+    "index.html": "/drewlacob.com/index.html",
+    "main.53502619.css.map": "/drewlacob.com/static/css/main.53502619.css.map",
+    "main.1ba6cc67.js.map": "/drewlacob.com/static/js/main.1ba6cc67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53502619.css",
+    "static/js/main.1ba6cc67.js"
+  ]
+}
