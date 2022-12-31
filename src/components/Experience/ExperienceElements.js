@@ -37,7 +37,7 @@ export const ExperienceH1 = styled.h1`
 `;
 
 export const ExperienceCard = styled.div`
-  background: #fff;
+  background: #282c34;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -47,14 +47,14 @@ export const ExperienceCard = styled.div`
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
-  border: 2px #fff solid;
+  border: 2px #282c34 solid;
+  color: #fff;
 
   &:hover {
     transform: scale(1.02);
     transition: all 0.4s ease-in-out;
     background: transparent;
     border: 2px #01bf71 solid;
-    color: #fff;
   }
 
   @media screen and (max-width: 768px) {

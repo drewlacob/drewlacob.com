@@ -36,7 +36,7 @@ const Projects = () => {
           <ProjectsCard>
             <ProjectsIcon src={GhostRacerPhoto} />
             <ProjectsH2>Ghostracer</ProjectsH2>
-            <ProjectsP>Basic real-time video game implemented in C++ using OOP</ProjectsP>
+            <ProjectsP>Real-time video game implemented in C++ </ProjectsP>
           </ProjectsCard>
         </ProjectLink>
       </ProjectsWrapper>
