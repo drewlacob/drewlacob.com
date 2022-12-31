@@ -1,20 +1,12 @@
 import styled from 'styled-components';
 
 export const ExperienceContainer = styled.div`
-  height: 92vh;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   background: #010606;
-
-  @media screen and (max-width: 768px) {
-    height: 800px;
-  }
-
-  @media screen and (max-width: 600px) {
-    height: 900px;
-  }
 `;
 
 export const ExperienceWrapper = styled.div`
@@ -59,11 +51,19 @@ export const ExperienceCard = styled.div`
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
   }
+
+  @media screen and (max-width: 768px) {
+    max-height: 380px;
+  }
 `;
 
 export const ExperienceH2 = styled.h2`
   font-size: 1.5rem;
   margin-bottom: 10px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.2rem;
+  }
 `;
 
 export const ExperienceDate = styled.h2`
