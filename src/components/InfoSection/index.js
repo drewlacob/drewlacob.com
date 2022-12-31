@@ -25,11 +25,11 @@ const InfoSection = () => {
             <Column1>
               <TextWrapper>
                 <TopLine>About Me</TopLine>
-                <Heading>CS at UCLA, CO 2024</Heading>
+                <Heading>CS at UCLA</Heading>
                 <Subtitle>
-                  Hi there! I'm Drew, a current junior studying computer science at UCLA. I was born and raised in San
+                  I'm Drew, a junior studying computer science at UCLA, class of 2024. I was born and raised in San
                   Diego, California. This summer I will be a Software Engineer Intern at General Atomics. Outside of my
-                  career, my favorite hobbies are rock climbing, weightlifting, and going to the beach!{' '}
+                  career, my favorite hobbies are rock climbing, weightlifting, and going to the beach.
                 </Subtitle>
                 <ResumeLink href={resume}>View Resume</ResumeLink>
               </TextWrapper>
