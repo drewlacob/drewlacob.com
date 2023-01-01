@@ -1,57 +1,37 @@
 import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
-
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 export const FooterContainer = styled.footer`
-  background-color: #282c34;
+  background: #282c34;
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
 `;
 
-export const FooterWrapper = styled.div`
-  padding: 36px 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 1100px;
-  margin: 0 auto;
-`;
+export const FooterLogo = styled(LinkS)`
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  display: inline-block;
+  cursor: pointer;
 
-export const FooterLinksContainer = styled.div`
-  display: flex;
-  justify-content: center;
-
-  @media screen and (max-width: 820px) {
-    padding-top: 24px;
+  &:hover {
+    color: #01bf71;
+    transition: 0.3s ease-out;
   }
 `;
 
-export const FooterLinksWrapper = styled.div`
+export const FooterList = styled.div`
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto 2rem;
+  gap: 1rem;
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 480px) {
     flex-direction: column;
   }
-`;
-
-export const FooterLinkItems = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 16px;
-  text-align: left;
-  width: 160px;
-  box-sizing: border-box;
-  color: #fff;
-
-  @media screen and (max-width: 420px) {
-    margin: 0;
-    padding: 10px;
-    width: 100%;
-  }
-`;
-
-export const FooterLinkTitle = styled.h1`
-  font-size: 16px;
-  margin-bottom: 16px;
 `;
 
 export const FooterLink = styled(LinkS)`
@@ -68,47 +48,38 @@ export const FooterLink = styled(LinkS)`
   }
 `;
 
-export const SocialMedia = styled.section`
-  max-width: 1000px;
-  width: 100%;
-`;
-
-export const SocialMediaWrap = styled.div`
+export const FooterSocials = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1100px;
-  margin: 10px auto 0 auto;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
 `;
 
-export const SocialLogo = styled(LinkS)`
+export const FooterSocialItem = styled.a`
+  background: #000;
   color: #fff;
-  justify-self: start;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 1.5rem;
+  padding: 0.9rem;
+  border-radius: 0.7rem;
   display: flex;
-  align-items: center;
-  margin-bottom: 16px;
-  font-weight: bold;
-`;
-
-export const WebsiteRights = styled.small`
-  color: #fff;
-  margin-bottom: 16px;
-`;
-
-export const SocialLink = styled.a`
-  color: #fff;
-  text-decoration: none;
-  margin-bottom: 0.5rem;
-  font-size: 14px;
-  cursor: pointer;
-  font-weight: bold;
+  border: 1px solid transparent;
 
   &:hover {
     color: #01bf71;
     transition: 0.3s ease-out;
   }
+`;
+
+export const FooterCopyright = styled.div``;
+
+export const FooterSmall = styled.small`
+  color: #fff;
+`;
+
+export const GithubLogo = styled(FaGithub)`
+  transform: scale(2);
+`;
+
+export const LinkedInLogo = styled(FaLinkedin)`
+  transform: scale(2);
 `;

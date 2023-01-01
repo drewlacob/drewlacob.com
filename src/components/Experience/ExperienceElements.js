@@ -27,6 +27,8 @@ export const ExperienceH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 64px;
+  margin-top: 64px;
+  font-variant: small-caps;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -36,7 +38,7 @@ export const ExperienceH1 = styled.h1`
 `;
 
 export const ExperienceCard = styled.div`
-  background: #fff;
+  background: #282c34;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -45,11 +47,14 @@ export const ExperienceCard = styled.div`
   max-height: 340px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease-in-out;
+  border: 2px #282c34 solid;
+  color: #fff;
 
   &:hover {
     transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    background: transparent;
+    border: 2px #01bf71 solid;
   }
 
   @media screen and (max-width: 768px) {
@@ -60,9 +65,10 @@ export const ExperienceCard = styled.div`
 export const ExperienceH2 = styled.h2`
   font-size: 1.5rem;
   margin-bottom: 10px;
+  font-variant: small-caps;
 
   @media screen and (max-width: 768px) {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 `;
 
