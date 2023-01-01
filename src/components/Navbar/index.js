@@ -9,7 +9,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav id="nav">
         <NavbarContainer>
-          <NavLogo to="hero" smooth={true} duration={500} spy={true} exact="true" offset={-80} primary={true}>
+          <NavLogo to="hero" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
             Drew Lacob
           </NavLogo>
           <MobileIcon onClick={toggle}>
@@ -17,30 +17,22 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about" smooth={true} duration={500} spy={true} exact="true" offset={-80} primary={true}>
+              <NavLinks to="about" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
                 About Me
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks
-                to="experience"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-                primary={true}
-              >
+              <NavLinks to="experience" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
                 Experience
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="projects" smooth={true} duration={500} spy={true} exact="true" offset={-80} primary={true}>
+              <NavLinks to="projects" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
                 Projects
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="skills" smooth={true} duration={500} spy={true} exact="true" offset={-80} primary={true}>
+              <NavLinks to="skills" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
                 Skills
               </NavLinks>
             </NavItem>

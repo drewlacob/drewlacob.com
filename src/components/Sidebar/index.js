@@ -19,28 +19,10 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink
-            to="hero"
-            onClick={toggle}
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact="true"
-            offset={-80}
-            primary={true}
-          >
+          <SidebarLink to="hero" onClick={toggle} smooth={true} duration={500} spy={true} exact="true" offset={-80}>
             Home
           </SidebarLink>
-          <SidebarLink
-            to="about"
-            onClick={toggle}
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact="true"
-            offset={-80}
-            primary={true}
-          >
+          <SidebarLink to="about" onClick={toggle} smooth={true} duration={500} spy={true} exact="true" offset={-80}>
             About Me
           </SidebarLink>
           <SidebarLink
@@ -51,32 +33,13 @@ const Sidebar = ({ isOpen, toggle }) => {
             spy={true}
             exact="true"
             offset={-80}
-            primary={true}
           >
             Experience
           </SidebarLink>
-          <SidebarLink
-            to="projects"
-            onClick={toggle}
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact="true"
-            offset={-80}
-            primary={true}
-          >
+          <SidebarLink to="projects" onClick={toggle} smooth={true} duration={500} spy={true} exact="true" offset={-80}>
             Projects
           </SidebarLink>
-          <SidebarLink
-            to="skills"
-            onClick={toggle}
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact="true"
-            offset={-80}
-            primary={true}
-          >
+          <SidebarLink to="skills" onClick={toggle} smooth={true} duration={500} spy={true} exact="true" offset={-80}>
             Skills
           </SidebarLink>
           <SocialsLink href="https://github.com/drewlacob">

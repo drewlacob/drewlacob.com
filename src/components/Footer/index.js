@@ -16,23 +16,23 @@ import {
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterLogo to="hero" smooth={true} duration={500} spy={true} exact="true" offset={-80} primary={true}>
+      <FooterLogo to="hero" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
         Drew Lacob
       </FooterLogo>
       <FooterList>
-        <FooterLink to="hero" smooth={true} duration={500} spy={true} exact="true" offset={-80} primary={true}>
+        <FooterLink to="hero" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
           Home
         </FooterLink>
-        <FooterLink to="about" smooth={true} duration={500} spy={true} exact="true" offset={-80} primary={true}>
+        <FooterLink to="about" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
           About
         </FooterLink>
-        <FooterLink to="experience" smooth={true} duration={500} spy={true} exact="true" offset={-80} primary={true}>
+        <FooterLink to="experience" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
           Experience
         </FooterLink>
-        <FooterLink to="projects" smooth={true} duration={500} spy={true} exact="true" offset={-80} primary={true}>
+        <FooterLink to="projects" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
           Projects
         </FooterLink>
-        <FooterLink to="skills" smooth={true} duration={500} spy={true} exact="true" offset={-80} primary={true}>
+        <FooterLink to="skills" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
           Skills
         </FooterLink>
       </FooterList>

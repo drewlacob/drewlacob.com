@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 function App() {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-      console.log(entry);
       if (entry.isIntersecting) {
         entry.target.classList.add('show');
       }
@@ -13,7 +12,6 @@ function App() {
   });
 
   const handleScroll = () => {
-    console.log('scrolling');
     const hiddenElements = document.querySelectorAll('.hidden');
     hiddenElements.forEach((el) => observer.observe(el));
   };
@@ -23,7 +21,7 @@ function App() {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  });
 
   return <Home />;
 }
