@@ -41,8 +41,8 @@ const responsive = {
 const Skills = () => {
   return (
     <SkillsContainer id="skills">
-      <SkillsH1>Skills</SkillsH1>
-      <SkillsWrapper>
+      <SkillsH1 className="hidden">Skills</SkillsH1>
+      <SkillsWrapper className="hidden">
         <SkillsCarousel
           swipeable={true}
           draggable={true}

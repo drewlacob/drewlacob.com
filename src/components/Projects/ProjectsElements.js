@@ -42,7 +42,7 @@ export const ProjectsCard = styled.div`
   max-height: 340px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease-in-out;
+  // transition: all 0.2s ease-in-out;
   color: #fff;
   border: 2px #282c34 solid;
 
@@ -66,6 +66,7 @@ export const ProjectsH1 = styled.h1`
   color: #fff;
   margin-bottom: 64px;
   margin-top: 64px;
+  font-variant: small-caps;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;

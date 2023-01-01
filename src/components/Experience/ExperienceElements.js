@@ -28,6 +28,7 @@ export const ExperienceH1 = styled.h1`
   color: #fff;
   margin-bottom: 64px;
   margin-top: 64px;
+  font-variant: small-caps;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -46,7 +47,6 @@ export const ExperienceCard = styled.div`
   max-height: 340px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease-in-out;
   border: 2px #282c34 solid;
   color: #fff;
 
@@ -65,9 +65,10 @@ export const ExperienceCard = styled.div`
 export const ExperienceH2 = styled.h2`
   font-size: 1.5rem;
   margin-bottom: 10px;
+  font-variant: small-caps;
 
   @media screen and (max-width: 768px) {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 `;
 

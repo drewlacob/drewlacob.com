@@ -13,14 +13,14 @@ import {
 const Experience = () => {
   return (
     <ExperienceContainer id="experience">
-      <ExperienceH1>Experience</ExperienceH1>
+      <ExperienceH1 className="hidden">Experience</ExperienceH1>
       <ExperienceWrapper>
-        <ExperienceCard>
+        <ExperienceCard className="hidden">
           <ExperienceH2>Upcoming SWE Intern</ExperienceH2>
           <ExperienceCompany href="https://www.ga-asi.com/">General Atomics</ExperienceCompany>
           <ExperienceDate>Summer 2023</ExperienceDate>
         </ExperienceCard>
-        <ExperienceCard>
+        <ExperienceCard className="hidden">
           <ExperienceH2>Software Engineering Intern</ExperienceH2>
           <ExperienceCompany href="https://www.abstudios.us/">Above and Beyond Studios</ExperienceCompany>
           <ExperienceDate>Summer 2022</ExperienceDate>
@@ -31,7 +31,7 @@ const Experience = () => {
             and implemented a mailer functionality for use throughout the site.
           </ExperienceP>
         </ExperienceCard>
-        <ExperienceCard>
+        <ExperienceCard className="hidden">
           <ExperienceH2>Undergraduate Researcher</ExperienceH2>
           <ExperienceCompany href="http://www.lab-paris.com/">PARIS Lab at UCLA</ExperienceCompany>
           <ExperienceDate>10/2021 - 06/2022</ExperienceDate>

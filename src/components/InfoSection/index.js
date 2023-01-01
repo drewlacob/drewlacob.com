@@ -24,18 +24,20 @@ const InfoSection = () => {
           <InfoRow>
             <Column1>
               <TextWrapper>
-                <TopLine>About Me</TopLine>
-                <Heading>CS at UCLA</Heading>
-                <Subtitle>
+                <TopLine className="hidden">About Me</TopLine>
+                <Heading className="hidden">CS at UCLA</Heading>
+                <Subtitle className="hidden">
                   I'm Drew, a junior studying computer science at UCLA, class of 2024. I was born and raised in San
                   Diego, California. This summer I will be a Software Engineer Intern at General Atomics. Outside of my
                   career, my favorite hobbies are rock climbing, weightlifting, and going to the beach.
                 </Subtitle>
-                <ResumeLink href={resume}>View Resume</ResumeLink>
+                <ResumeLink className="hidden" href={resume}>
+                  View Resume
+                </ResumeLink>
               </TextWrapper>
             </Column1>
             <Column2>
-              <ImgWrap>
+              <ImgWrap className="hidden">
                 <Img src={avatarPhoto} />
               </ImgWrap>
             </Column2>
