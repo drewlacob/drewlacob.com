@@ -4,7 +4,7 @@ import { BsPatchCheckFill } from 'react-icons/bs';
 export const ExperienceContainer = styled.div`
   background: #010606;
   color: #fff;
-  height: 92vh;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -48,6 +48,15 @@ export const ExperienceWrapper = styled.div`
 export const ExperienceH3 = styled.h3`
   text-align: center;
   margin-bottom: 2rem;
+  font-variant: small-caps;
+
+  @media screen and (max-width: 600px) {
+    font-size: 1.1rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 0.85rem;
+  }
 `;
 
 export const ExperienceSoftware = styled.div`
