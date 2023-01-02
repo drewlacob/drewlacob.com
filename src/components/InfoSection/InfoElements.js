@@ -29,6 +29,10 @@ export const InfoWrapper = styled.div`
   @media screen and (max-width: 768px) {
     height: 900px;
   }
+
+  @media screen and (max-width: 600px) {
+    height: 800px;
+  }
 `;
 
 export const InfoRow = styled.div`

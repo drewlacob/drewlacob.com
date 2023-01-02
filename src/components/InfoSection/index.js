@@ -37,7 +37,7 @@ const InfoSection = () => {
               </TextWrapper>
             </Column1>
             <Column2>
-              <ImgWrap className="hidden">
+              <ImgWrap className="hiddenStationary">
                 <Img src={avatarPhoto} />
               </ImgWrap>
             </Column2>

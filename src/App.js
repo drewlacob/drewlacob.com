@@ -3,24 +3,25 @@ import Home from './pages';
 import { useEffect } from 'react';
 
 function App() {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('show');
-      }
-    });
-  });
-
-  const handleScroll = () => {
-    const hiddenElements = document.querySelectorAll('.hidden');
-    hiddenElements.forEach((el) => observer.observe(el));
-  };
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    },
+    {
+      threshold: 0,
+    }
+  );
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    const hiddenElements = document.querySelectorAll('.hidden'); //Observe objects with normal fade in and up
+    hiddenElements.forEach((el) => observer.observe(el));
+
+    const hiddenElementsStationary = document.querySelectorAll('.hiddenStationary'); //Observe objects with stationary fade in (lazy load)
+    hiddenElementsStationary.forEach((el) => observer.observe(el));
   });
 
   return <Home />;
