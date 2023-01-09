@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const InfoContainer = styled.div`
   color: #fff;
@@ -39,10 +39,10 @@ export const InfoRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
-  grid-template-areas: 'col2 col1';
+  grid-template-areas: "col2 col1";
 
   @media screen and (max-width: 768px) {
-    grid-template-areas: 'col1' 'col2';
+    grid-template-areas: "col1" "col2";
   }
 `;
 
@@ -123,6 +123,11 @@ export const ImgWrap = styled.div`
 
 export const Img = styled.img`
   width: 100%;
-  margin: 0 0 10px;
+  margin: 10px 0 10px;
   padding-right: 0;
+  border-radius: 10px;
+
+  @media screen and (max-width: 768px) and (min-width: 500px) {
+    height: 600px;
+  }
 `;
