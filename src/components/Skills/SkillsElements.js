@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { BsPatchCheckFill } from 'react-icons/bs';
+import styled from "styled-components";
+import { BsPatchCheckFill } from "react-icons/bs";
 
 export const ExperienceContainer = styled.div`
   background: #010606;
@@ -9,7 +9,6 @@ export const ExperienceContainer = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background: #010606;
 
   @media screen and (max-width: 900px) {
     height: 1000px;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   ProjectsContainer,
   ProjectsH1,
@@ -8,10 +8,11 @@ import {
   ProjectsH2,
   ProjectsP,
   ProjectLink,
-} from './ProjectsElements';
-import KeschetIcon from '../../images/keschet.png';
-import ClimBlogLogo from '../../images/cbLogo.png';
-import GhostRacerPhoto from '../../images/grPhoto.png';
+} from "./ProjectsElements";
+import KeschetIcon from "../../images/keschet.png";
+import ClimBlogLogo from "../../images/cbLogo.png";
+import GhostRacerPhoto from "../../images/grPhoto.png";
+import MetagenomicsPhoto from "../../images/metagenomics.png";
 
 const Projects = () => {
   return (
@@ -37,6 +38,13 @@ const Projects = () => {
             <ProjectsIcon src={GhostRacerPhoto} />
             <ProjectsH2>Ghostracer</ProjectsH2>
             <ProjectsP>Real-time video game implemented in C++ </ProjectsP>
+          </ProjectsCard>
+        </ProjectLink>
+        <ProjectLink href="https://github.com/drewlacob/metagenomics">
+          <ProjectsCard className="hidden">
+            <ProjectsIcon src={MetagenomicsPhoto} />
+            <ProjectsH2>Metagenomics</ProjectsH2>
+            <ProjectsP> Mapping reads to source genomes using Python </ProjectsP>
           </ProjectsCard>
         </ProjectLink>
       </ProjectsWrapper>

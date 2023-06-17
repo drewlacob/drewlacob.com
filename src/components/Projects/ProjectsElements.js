@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
   height: 1000px;
@@ -9,7 +9,7 @@ export const ProjectsContainer = styled.div`
   background: #010606;
 
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 1400px;
   }
 `;
 
@@ -42,9 +42,12 @@ export const ProjectsCard = styled.div`
   max-height: 340px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  // transition: all 0.2s ease-in-out;
   color: #fff;
   border: 2px #282c34 solid;
+
+  @media screen and (max-width: 1000px) and (min-width: 768px) {
+    height: 300px;
+  }
 
   &:hover {
     transform: scale(1.02);
