@@ -49,6 +49,7 @@ export const ExperienceCard = styled.div`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border: 2px #282c34 solid;
   color: #fff;
+  will-change: transform;
 
   &:hover {
     transform: scale(1.02);

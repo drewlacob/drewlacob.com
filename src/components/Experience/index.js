@@ -16,12 +16,12 @@ const Experience = () => {
       <ExperienceH1 className="hidden">Experience</ExperienceH1>
       <ExperienceWrapper>
         <ExperienceCard className="hidden">
-          <ExperienceH2>Upcoming SWE Intern</ExperienceH2>
+          <ExperienceH2>Software Engineering Intern</ExperienceH2>
           <ExperienceCompany href="https://www.ga-asi.com/">General Atomics</ExperienceCompany>
           <ExperienceDate>Summer 2023</ExperienceDate>
         </ExperienceCard>
         <ExperienceCard className="hidden">
-          <ExperienceH2>Software Engineering Intern</ExperienceH2>
+          <ExperienceH2>Backend Engineering Intern</ExperienceH2>
           <ExperienceCompany href="https://www.abstudios.us/">Above and Beyond Studios</ExperienceCompany>
           <ExperienceDate>Summer 2022</ExperienceDate>
           <ExperienceP>

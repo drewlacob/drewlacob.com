@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
   height: 1000px;
@@ -44,12 +44,14 @@ export const ProjectsCard = styled.div`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   color: #fff;
   border: 2px #282c34 solid;
+  will-change: transform;
 
   @media screen and (max-width: 1000px) and (min-width: 768px) {
     height: 300px;
   }
 
   &:hover {
+    transform-origin: top;
     transform: scale(1.02);
     transition: all 0.4s ease-in-out;
     background: transparent;

@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { BsPatchCheckFill } from "react-icons/bs";
+import styled from 'styled-components';
+import { BsPatchCheckFill } from 'react-icons/bs';
 
 export const ExperienceContainer = styled.div`
   background: #010606;
@@ -64,6 +64,7 @@ export const ExperienceSoftware = styled.div`
   border-radius: 2rem;
   border: 2px #282c34 solid;
   margin: 3rem;
+  will-change: transform;
 
   &:hover {
     background: transparent;
@@ -90,6 +91,7 @@ export const ExperienceWebDev = styled.div`
   border-radius: 2rem;
   border: 2px #282c34 solid;
   margin: 3rem;
+  will-change: transform;
 
   &:hover {
     background: transparent;
