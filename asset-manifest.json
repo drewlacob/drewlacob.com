@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4bba153e.css",
-    "main.js": "/static/js/main.3e39f65b.js",
-    "static/media/video.mp4": "/static/media/video.cdae1e2dccdc1e672ede.mp4",
+    "main.js": "/static/js/main.85bbb641.js",
+    "static/media/Professional_Photo_Suit.jpg": "/static/media/Professional_Photo_Suit.27f282320bda318861ac.jpg",
     "static/media/professionalPhoto.jpg": "/static/media/professionalPhoto.50f0e12620a220b147dc.jpg",
     "static/media/keschet.png": "/static/media/keschet.be2d15120821f95b5958.png",
     "static/media/resume.pdf": "/static/media/resume.039675ee419e629b193c.pdf",
@@ -11,10 +11,10 @@
     "static/media/metagenomics.png": "/static/media/metagenomics.1f7a22cf527735d171db.png",
     "index.html": "/index.html",
     "main.4bba153e.css.map": "/static/css/main.4bba153e.css.map",
-    "main.3e39f65b.js.map": "/static/js/main.3e39f65b.js.map"
+    "main.85bbb641.js.map": "/static/js/main.85bbb641.js.map"
   },
   "entrypoints": [
     "static/css/main.4bba153e.css",
-    "static/js/main.3e39f65b.js"
+    "static/js/main.85bbb641.js"
   ]
 }
